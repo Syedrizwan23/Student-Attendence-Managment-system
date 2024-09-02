@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Attendance | Student Attendance Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="mark attendence.html">mark attendance</a></li>
+                <li><a href="edit profile.html">edit profile</a></li>
+                <li><a href="dashboard.html">Dashbooard</a></li>
+                <li><a href="admin login.html">Admin login</a></li>
+                <li><a href="admin dashboard.html">Admin dashboard</a></li>
+                <li><a href="view attendence.html">view attendance</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="attendance-report">
+            <h2>Attendance Report</h2>
+            <div id="attendance-table-container">
+                <table id="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>Student Name</th>
+                            <th>Attendance Date</th>
+                            <th>Status</th>
+                            <th>Note</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendance-table-body"></tbody>
+                </table>
+            </div>
+
+            <button id="refresh-button">Refresh Attendance</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Student Attendance Management System</p>
+    </footer>
+</body>
+</html>
